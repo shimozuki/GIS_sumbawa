@@ -36,7 +36,7 @@ include 'functions.php';
             toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
         });
     </script>   
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1wZZqn8OiFRUNDR3MSMHS32NvGwknVDI"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=apikey"></script>
     <script>
         var default_lat = <?=get_option('default_lat')?>; 
         var default_lng = <?=get_option('default_lng')?>;
